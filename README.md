@@ -3,6 +3,7 @@
 A full-stack web application that automatically generates optimized college timetables for students and faculty while avoiding scheduling conflicts. The system manages sections, subjects, faculty allocation, theory/lab scheduling, and displays dynamic timetables through an interactive React interface.
 
 # 📌 Features
+```
 Automatic timetable generation
 Student timetable display
 Faculty timetable display
@@ -13,59 +14,63 @@ MongoDB database integration
 REST API backend
 Responsive React UI
 Dynamic timetable rendering
-🛠 Tech Stack
+```
+# 🛠 Tech Stack
+```
 Frontend
 React.js
 Axios
 CSS
+
 Backend
 Node.js
 Express.js
+
 Database
 MongoDB
 Mongoose
+```
 # 📂 Project Structure
 ```
+Correct Structure For Your Project
 timetable-generator/
 │
 ├── backend/
 │   │
 │   ├── models/
 │   │   ├── Faculty.js
-│   │   ├── FacultyTimetable.js
-│   │   ├── Section.js
 │   │   ├── Subject.js
+│   │   ├── Section.js
 │   │   └── Timetable.js
 │   │
 │   ├── routes/
 │   │   ├── facultyRoutes.js
-│   │   ├── sectionRoutes.js
 │   │   ├── subjectRoutes.js
+│   │   ├── sectionRoutes.js
 │   │   └── timetableRoutes.js
 │   │
 │   ├── utils/
 │   │   └── generateTimetable.js
 │   │
-│   ├── server.js
-│   └── package.json
+│   ├── .env
+│   ├── package.json
+│   └── server.js
 │
 ├── frontend/
 │   │
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── FacultyForm.jsx
-│   │   │   ├── SectionForm.jsx
-│   │   │   ├── SubjectForm.jsx
-│   │   │   └── TimetableDisplay.jsx
-│   │   │
-│   │   ├── pages/
-│   │   │   └── Home.jsx
-│   │   │
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── styles.css
+│   ├── public/
+│   │   └── index.html
 │   │
-│   └── package.json
+│   ├── src/
+│   │   │
+│   │   ├── Login.js
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   ├── index.js
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   └── node_modules/
 │
 └── README.md
 ```
@@ -140,7 +145,7 @@ Break period handling
 PDF export
 Excel export
 Authentication system
-```
 AI-based optimization
 Drag-and-drop editing
 Admin dashboard
+```
