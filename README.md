@@ -92,30 +92,8 @@ npm start
 Frontend runs on:
 
 http://localhost:3000
-🗄 MongoDB Setup
 
-Create a .env file inside backend folder:
-
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-📌 API Endpoints
-Faculty APIs
-Method	Endpoint	Description
-POST	/api/faculty	Add faculty
-GET	/api/faculty	Get faculty
-Subject APIs
-Method	Endpoint	Description
-POST	/api/subjects	Add subject
-GET	/api/subjects	Get subjects
-Section APIs
-Method	Endpoint	Description
-POST	/api/sections	Add section
-GET	/api/sections	Get sections
-Timetable APIs
-Method	Endpoint	Description
-GET	/api/timetable/generate	Generate timetable
-GET	/api/timetable	Get timetable
-🧠 Timetable Generation Logic
+# 🧠 Timetable Generation Logic
 
 The system:
 
@@ -125,51 +103,9 @@ Allocates subjects into slots
 Prevents faculty clashes
 Handles lab/theory scheduling
 Generates student timetable
-Generates faculty timetable
 Stores data in MongoDB
-🧩 Database Models
-Faculty Model
-{
-  name: String,
-  code: String
-}
-Subject Model
-{
-  name: String,
-  facultyId: ObjectId,
-  type: String
-}
-Section Model
-{
-  name: String,
-  subjects: [ObjectId]
-}
-Timetable Model
-{
-  sectionId: ObjectId,
-  day: String,
-  slots: Array
-}
-🎨 Frontend Modules
-Faculty Form
 
-Used to add faculty members.
-
-Subject Form
-
-Used to add subjects and assign faculty.
-
-Section Form
-
-Used to create class sections.
-
-Timetable Display
-
-Displays:
-
-Student timetable
-Faculty timetable
-🔄 Workflow
+# 🔄 Workflow
 User Inputs Data
         ↓
 Store in MongoDB
