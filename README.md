@@ -67,6 +67,7 @@ timetable-generator/
 │   └── package.json
 │
 └── README.md
+
 # ⚙️ Installation
 1️⃣ Clone Repository
 git clone <repository-url>
