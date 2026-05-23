@@ -119,14 +119,16 @@ Create Student Timetable
 Create Faculty Timetable
         ↓
 Display on Frontend
-🚫 Constraints Handled
+
+# 🚫 Constraints Handled
 No faculty overlap
 No duplicate subject slots
 Separate lab scheduling
 Valid faculty assignment
 Fixed working days
 Break period handling
-📸 Future Enhancements
+
+# 📸 Future Enhancements
 PDF export
 Excel export
 Authentication system
