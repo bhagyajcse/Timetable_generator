@@ -25,6 +25,7 @@ Database
 MongoDB
 Mongoose
 # 📂 Project Structure
+```
 timetable-generator/
 │
 ├── backend/
@@ -67,9 +68,11 @@ timetable-generator/
 │   └── package.json
 │
 └── README.md
-
+```
 # ⚙️ Installation
-1️⃣ Clone Repository
+
+### 1️⃣ Clone Repository
+```
 git clone <repository-url>
 cd timetable-generator
 🔧 Backend Setup
@@ -82,7 +85,9 @@ npm start
 Server runs on:
 
 http://localhost:5000
-💻 Frontend Setup
+```
+### 💻 Frontend Setup
+```
 Install Dependencies
 cd frontend
 npm install
@@ -92,9 +97,9 @@ npm start
 Frontend runs on:
 
 http://localhost:3000
-
+```
 # 🧠 Timetable Generation Logic
-
+```
 The system:
 
 Fetches sections and subjects
@@ -104,8 +109,9 @@ Prevents faculty clashes
 Handles lab/theory scheduling
 Generates student timetable
 Stores data in MongoDB
-
+```
 # 🔄 Workflow
+```
 User Inputs Data
         ↓
 Store in MongoDB
@@ -119,19 +125,22 @@ Create Student Timetable
 Create Faculty Timetable
         ↓
 Display on Frontend
-
+```
 # 🚫 Constraints Handled
+```
 No faculty overlap
 No duplicate subject slots
 Separate lab scheduling
 Valid faculty assignment
 Fixed working days
 Break period handling
-
+```
 # 📸 Future Enhancements
+```
 PDF export
 Excel export
 Authentication system
+```
 AI-based optimization
 Drag-and-drop editing
 Admin dashboard
